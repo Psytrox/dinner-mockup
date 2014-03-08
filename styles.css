@@ -1,0 +1,157 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: 0 0; }
+
+.public .content {
+  margin: 0 auto;
+  width: 800px;
+  text-align: center; }
+
+html, body {
+  height: 100%; }
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: "Coustard", Helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 21px; }
+
+a {
+  color: #800000; }
+
+.public h1 {
+  font-size: 82px;
+  line-height: 1;
+  font-weight: bold;
+  margin: 0 0 25px; }
+  .public h1 span {
+    font-size: 16px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.4);
+    display: block;
+    font-weight: normal; }
+.public .wrap {
+  height: 100%;
+  background-repeat: repeat;
+  background-size: 220px auto;
+  background-position: 50% 50%;
+  padding-top: 300px; }
+.public .stripe {
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  padding: 25px 0;
+  text-align: center; }
+.public .content p {
+  line-height: 1.4;
+  font-size: 18px;
+  margin-bottom: 1.2em; }
+.public .field, .public .actions {
+  margin-bottom: 10px; }
+.public .button {
+  border: none;
+  font-family: "Coustard", Helvetica, arial, sans-serif;
+  background: #b30000;
+  border-radius: 24px;
+  padding: .5em 1em;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  opacity: .8; }
+  .public .button:hover {
+    opacity: 1; }
+.public .notice {
+  color: green; }
+.public .field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table; }
+.public #error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0; }
+  .public #error_explanation h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff; }
+  .public #error_explanation ul li {
+    font-size: 12px;
+    list-style: square; }
+.public .add-item {
+  padding-top: 20px; }
+  .public .add-item .content {
+    text-align: left;
+    width: 500px; }
+  .public .add-item label {
+    font-size: 16px;
+    display: block;
+    margin: 0 0 .4em;
+    padding: 0;
+    font-weight: bold; }
+  .public .add-item input[type=text], .public .add-item textarea {
+    width: 100%;
+    margin: 0 0 1em;
+    border: 1px solid #999;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Coustard", Helvetica, arial, sans-serif;
+    padding: .6em 1em; }
+
+.admin p {
+  margin-bottom: 1.4em; }
+.admin .desc {
+  font-size: 18px; }
