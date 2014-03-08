@@ -106,8 +106,12 @@ a {
 }
 .public .content p {
   line-height: 1.4;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 1.2em;
+}
+.public .content .add-link {
+  margin-bottom: 0;
+  font-size: 16px;
 }
 .public .field, .public .actions {
   margin-bottom: 10px;
@@ -120,8 +124,8 @@ a {
   padding: .5em 1em;
   color: white;
   text-decoration: none;
-  font-size: 16px;
   opacity: .8;
+  display: inline-block;
 }
 .public .button:hover {
   opacity: 1;
